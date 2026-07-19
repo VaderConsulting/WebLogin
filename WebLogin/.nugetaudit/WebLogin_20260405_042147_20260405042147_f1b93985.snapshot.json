@@ -1,0 +1,164 @@
+{
+  "SnapshotId": "20260405042147_f1b93985",
+  "CapturedUtc": "2026-04-05T04:21:47.4919636+00:00",
+  "NormalisedContentHash": "09B05639773914557272D23EC8E14F150AC3DCC885DCF994952C695086932FA6",
+  "AnalysisStatus": "Complete",
+  "Solution": {
+    "SolutionName": "WebLogin",
+    "SolutionPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\WebLogin\\WebLogin\\WebLogin.csproj",
+    "SolutionKey": "E4DF3D66AC5FDEFE",
+    "SourceIdentity": {
+      "IdentityKey": "E4DF3D66AC5FDEFE",
+      "IdentityKind": "disk-path",
+      "MachineName": "SURFACELAPTOP7",
+      "InputPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\WebLogin\\WebLogin\\WebLogin.csproj",
+      "RepositoryRootPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\WebLogin\\WebLogin",
+      "GitRemoteUrl": null,
+      "GitRemoteKey": null
+    }
+  },
+  "Projects": [
+    {
+      "ProjectId": "7C7F45387ECAAA50",
+      "ProjectName": "WebLogin",
+      "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\WebLogin\\WebLogin\\WebLogin.csproj",
+      "ProjectStyle": "PackageReference",
+      "LoadState": "Loaded",
+      "AnalysisStatus": "Complete",
+      "TargetFrameworks": "net6.0",
+      "AssetsFilePath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\WebLogin\\WebLogin\\obj\\project.assets.json",
+      "PackagesLockFilePath": null,
+      "Packages": [
+        {
+          "PackageId": "Newtonsoft.Json",
+          "RequestedVersion": null,
+          "ResolvedVersion": "13.0.1",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net6.0",
+          "DependencyParents": [
+            "Selenium.WebDriver"
+          ],
+          "DependencyPath": [
+            "Newtonsoft.Json",
+            "Selenium.WebDriver"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "13.0.4",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/WEBLOGIN/WEBLOGIN/WEBLOGIN.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/WEBLOGIN/WEBLOGIN/WEBLOGIN.CSPROJ|NET6.0|NONE|NEWTONSOFT.JSON"
+        },
+        {
+          "PackageId": "Selenium.WebDriver",
+          "RequestedVersion": "4.11.0",
+          "ResolvedVersion": "4.11.0",
+          "ReferenceKind": "Direct",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net6.0",
+          "DependencyParents": [],
+          "DependencyPath": [
+            "Selenium.WebDriver"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "4.41.0",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/WEBLOGIN/WEBLOGIN/WEBLOGIN.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/WEBLOGIN/WEBLOGIN/WEBLOGIN.CSPROJ|NET6.0|NONE|SELENIUM.WEBDRIVER"
+        },
+        {
+          "PackageId": "Selenium.WebDriver.ChromeDriver",
+          "RequestedVersion": "116.0.5845.9600",
+          "ResolvedVersion": "116.0.5845.9600",
+          "ReferenceKind": "Direct",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net6.0",
+          "DependencyParents": [],
+          "DependencyPath": [
+            "Selenium.WebDriver.ChromeDriver"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "116.0.5845.9600",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Abandoned",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/WEBLOGIN/WEBLOGIN/WEBLOGIN.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/WEBLOGIN/WEBLOGIN/WEBLOGIN.CSPROJ|NET6.0|NONE|SELENIUM.WEBDRIVER.CHROMEDRIVER"
+        }
+      ],
+      "DependencyEdges": [
+        {
+          "FromPackageId": "Selenium.WebDriver",
+          "ToPackageId": "Newtonsoft.Json",
+          "TargetFrameworkMoniker": "net6.0",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/WEBLOGIN/WEBLOGIN/WEBLOGIN.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/WEBLOGIN/WEBLOGIN/WEBLOGIN.CSPROJ|NET6.0|NONE|SELENIUM.WEBDRIVER",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/WEBLOGIN/WEBLOGIN/WEBLOGIN.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/WEBLOGIN/WEBLOGIN/WEBLOGIN.CSPROJ|NET6.0|NONE|NEWTONSOFT.JSON"
+        }
+      ],
+      "Diagnostics": [
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027Newtonsoft.Json\u0027 13.0.1 is outdated. Latest compatible stable version: 13.0.4.",
+          "ProjectName": "WebLogin",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\WebLogin\\WebLogin\\WebLogin.csproj",
+          "PackageId": "Newtonsoft.Json",
+          "TargetFrameworkMoniker": "net6.0",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027Selenium.WebDriver\u0027 4.11.0 is outdated. Latest compatible stable version: 4.41.0.",
+          "ProjectName": "WebLogin",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\WebLogin\\WebLogin\\WebLogin.csproj",
+          "PackageId": "Selenium.WebDriver",
+          "TargetFrameworkMoniker": "net6.0",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDABN",
+          "Severity": "Warning",
+          "Message": "Package \u0027Selenium.WebDriver.ChromeDriver\u0027 116.0.5845.9600: latest compatible stable matches the resolved version, but that release was published more than a year ago on nuget.org.",
+          "ProjectName": "WebLogin",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\WebLogin\\WebLogin\\WebLogin.csproj",
+          "PackageId": "Selenium.WebDriver.ChromeDriver",
+          "TargetFrameworkMoniker": "net6.0",
+          "HelpLink": null
+        }
+      ],
+      "Warnings": []
+    }
+  ],
+  "Warnings": [
+    "Attention required: 3 package diagnostics are warnings."
+  ]
+}

@@ -1,0 +1,78 @@
+﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+
+using System.Net;
+
+namespace WebLogin
+{
+    class program
+    {
+        class Program
+        {
+            static async Task Main(string[] args)
+            {
+                ChromeDriver driver = new ChromeDriver(); // create a Chrome browser instance
+                driver.Navigate().GoToUrl("http://admin:admin@10.1.1.62/index_cn.html"); // go to the login page
+                                                                                         //IWebElement usernameField = driver.FindElement(By.Name("Username")); // find the username input field
+                                                                                         //IWebElement passwordField = driver.FindElement(By.Name("Password")); // find the password input field
+                                                                                         //IWebElement loginButton = driver.FindElement(By.Name("Login")); // find the login button
+                                                                                         //usernameField.SendKeys("username"); // enter your username
+                                                                                         //passwordField.SendKeys("password"); // enter your password
+                                                                                         //loginButton.Click(); // click the login button
+                                                                                         // wait for the page to load and execute javascript as needed
+
+                var CurrentPowerUsage = driver.FindElement(By.Name("webdata_now_p"));
+            }
+
+            private async void LoginUsingHttpClient()
+            {
+                // Create a HttpClientHandler with NetworkCredential
+                HttpClientHandler handler = new HttpClientHandler();
+                handler.Credentials = new NetworkCredential("admin", "admin");
+
+                // Create a HttpClient with the handler
+                HttpClient client = new HttpClient(handler);
+
+                // Set the base address of the website
+                client.BaseAddress = new Uri("http://10.1.1.62");
+
+                // Send a GET request and get the response
+                HttpResponseMessage response = await client.GetAsync("/index_cn.html");
+
+                // Check if the request was successful
+                if (response.IsSuccessStatusCode)
+                {
+                    Console.WriteLine("Login successful!");
+
+                    // Read and display the response content
+                    string content = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine(content);
+
+                    // Send another GET request to another page on the same website
+                    //HttpResponseMessage StatusResponse = await client.GetAsync("/status.html");
+
+                    //// Check if the other request was successful
+                    //if (StatusResponse.IsSuccessStatusCode)
+                    //{
+                    //    Console.WriteLine("Status page loaded!");
+
+                    //    // Read and display the response content
+                    //    string content = await response.Content.ReadAsStringAsync();
+                    //    Console.WriteLine(content);
+                    //}
+                    //else
+                    //{
+                    //    Console.WriteLine($"Status page request failed: {StatusResponse.StatusCode}");
+                    //}
+                }
+                else
+                {
+                    Console.WriteLine("Login failed!");
+                    // Display the status code and reason phrase
+                    Console.WriteLine($"Status code: {response.StatusCode}");
+                    Console.WriteLine($"Reason phrase: {response.ReasonPhrase}");
+                }
+            }
+        }
+    }
+}

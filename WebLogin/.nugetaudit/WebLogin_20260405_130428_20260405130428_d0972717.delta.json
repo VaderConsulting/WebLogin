@@ -1,0 +1,100 @@
+{
+  "CurrentSnapshotId": "20260405130428_d0972717",
+  "PreviousSnapshotId": "20260405042147_f1b93985",
+  "IsChanged": true,
+  "ComparisonNote": null,
+  "Changes": [
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/WEBLOGIN/WEBLOGIN/WEBLOGIN.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/WEBLOGIN/WEBLOGIN/WEBLOGIN.CSPROJ|NET6.0|NONE|SELENIUM.WEBDRIVER.CHROMEDRIVER",
+      "ProjectName": "WebLogin",
+      "PackageId": "Selenium.WebDriver.ChromeDriver",
+      "ChangeType": "MetadataChanged",
+      "PreviousResolvedVersion": "116.0.5845.9600",
+      "CurrentResolvedVersion": "116.0.5845.9600",
+      "PreviousRequestedVersion": "116.0.5845.9600",
+      "CurrentRequestedVersion": "116.0.5845.9600",
+      "TargetFrameworkMoniker": "net6.0",
+      "PreviousReferenceKind": "Direct",
+      "CurrentReferenceKind": "Direct",
+      "PreviousDependencyParents": [],
+      "CurrentDependencyParents": [],
+      "PreviousDependencyPath": [
+        "Selenium.WebDriver.ChromeDriver"
+      ],
+      "CurrentDependencyPath": [
+        "Selenium.WebDriver.ChromeDriver"
+      ],
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "116.0.5845.9600",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "116.0.5845.9600",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    }
+  ],
+  "DependencyEdgeChanges": [],
+  "KnowledgeChanges": [
+    {
+      "PackageId": "Selenium.WebDriver.ChromeDriver",
+      "ResolvedVersion": "116.0.5845.9600",
+      "DeterminedUtc": "2026-04-05T13:04:28.8991256+00:00",
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "116.0.5845.9600",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "116.0.5845.9600",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": null
+      },
+      "Summary": "Development status is now Active. Remediation guidance changed."
+    }
+  ]
+}
