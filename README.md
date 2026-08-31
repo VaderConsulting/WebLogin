@@ -2,6 +2,8 @@
 
 A .NET 6 console application that uses Selenium WebDriver to silently scrape real-time photovoltaic (PV) power-generation data from a local solar-inverter web interface and display it continuously on the console.
 
+**Source last updated:** 2023-02-25
+
 **Initiated:** 2023-02-26 · **Framework:** .NET 6 · **Solution:** `WebLogin.sln`
 
 ---
