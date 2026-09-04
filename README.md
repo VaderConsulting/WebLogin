@@ -38,3 +38,8 @@ Launches a headless Google Chrome instance (via ChromeDriver) and polls a solar 
 1. Update the target URL in `Program.cs` to match the inverter's local IP
 2. `dotnet run --project WebLogin`
 3. Press **Ctrl+C** to stop
+
+## Requirements
+
+- Visual Studio 2022, .NET 6.0
+
