@@ -1,9 +1,8 @@
-﻿# WebLogin
+# WebLogin
 
-A .NET 6 console application that uses Selenium WebDriver to silently scrape real-time photovoltaic (PV) power-generation data from a local solar-inverter web interface and display it continuously on the console.
+A .NET 6 console app that scrapes live PV power output from a local solar-inverter web UI via Selenium. It polls the inverter status page headlessly and prints wattage to the console each second.
 
 **Source last updated:** 2023-02-25
-
 **Initiated:** 2023-02-26 · **Framework:** .NET 6 · **Solution:** `WebLogin.sln`
 
 ---
