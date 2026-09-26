@@ -2,7 +2,7 @@
 
 A .NET 6 console app that scrapes live PV power output from a local solar-inverter web UI via Selenium. It polls the inverter status page headlessly and prints wattage to the console each second.
 
-**Source last updated:** 2023-02-25
+**Source last updated:** 2023-08-20
 **Initiated:** 2023-02-26 · **Framework:** .NET 6 · **Solution:** `WebLogin.sln`
 
 ---
@@ -41,3 +41,23 @@ Launches a headless Google Chrome instance (via ChromeDriver) and polls a solar 
 ## Requirements
 
 - Visual Studio 2022, .NET 6.0
+- NuGet: Selenium.WebDriver 4.11.0, Selenium.WebDriver.ChromeDriver 116.0.5845.9600
+- Google Chrome matching the ChromeDriver major version
+
+## Solution structure
+
+| Project | Language | Type | Purpose |
+|---------|----------|------|---------|
+| `WebLogin` (`WebLogin/WebLogin.csproj`) | C# | Console app (net6.0) | Headless Chrome poller that reads live PV wattage from the inverter status page |
+
+## How to open
+
+Open `WebLogin.sln` in Visual Studio 2022, restore NuGet packages, set the inverter URL in `Program.cs`, and run.
+
+## Attribution and provenance
+
+Working copy from my Development folder `WebLogin`.
+
+## License
+
+MIT © 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
