@@ -56,6 +56,8 @@ Open `WebLogin.sln` in Visual Studio 2022, restore NuGet packages, set the inver
 
 ## Attribution and provenance
 
+Working copy from my Historical Dev folder.
+
 Working copy from my Development folder `WebLogin`.
 
 ## License
